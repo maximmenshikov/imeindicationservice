@@ -1,0 +1,30 @@
+#pragma once
+#ifndef IMEINDICATIONSERVICE_H
+#define IMEINDICATIONSERVICE_H
+
+typedef enum
+{
+	APISTATE_UNKNOWN,
+	APISTATE_NEVER,
+	APISTATE_NOT_READY,
+	APISTATE_READY
+}ApiState;
+
+#define EVENT_NAME TEXT("SYSTEM/GweApiSetReady")
+
+#define MODE_FN				5
+#define MODE_FNLOCK			2
+#define MODE_SHIFT			4
+#define MODE_CAPSLOCK		1
+
+#define MODE_CAPSLOCK_FN	6
+
+#define ICON_FN				112
+#define ICON_FNLOCK			114
+#define ICON_SHIFT			111
+#define	ICON_CAPSLOCK		113
+
+#define MS_SIPBUTTON_CLASS				L"MS_SIPBUTTON"
+#define SIPHOOK_WINDOW_PROPERTY			L"{d2ba91cb-5c76-4b61-8941-49428ba3d157}"
+
+#endif

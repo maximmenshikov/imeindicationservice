@@ -1,0 +1,11 @@
+LIBRARY	"ImeIndicationService"
+;DESCRIPTION  'ImeIndicationService Windows CE Dynamic Link Library'
+EXPORTS
+   IMI_Close
+   IMI_Deinit
+   IMI_Init
+   IMI_IOControl
+   IMI_Open
+   IMI_Read
+   IMI_Seek
+   IMI_Write
